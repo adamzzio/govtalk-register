@@ -58,7 +58,7 @@ def register_user():
             conn.commit()
 
             st.success("Registrasi berhasil! Silakan login.")
-            st.markdown("[Klik di sini untuk ke halaman login](https://govtalk-gov.streamlit.app/)") 
+            st.markdown("[Klik di sini untuk ke halaman login](https://lexagov-gov.streamlit.app/)") 
 
 # Inisialisasi koneksi PostgreSQL sebelum memanggil fungsi register_user
 init_postgres_connection()
